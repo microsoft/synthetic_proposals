@@ -1,0 +1,21 @@
+# Dense retrieval service (retrieval/)
+faiss-gpu; platform_system == "Linux"   # or: faiss-cpu
+torch
+transformers
+datasets
+numpy
+fastapi
+uvicorn
+pydantic
+tqdm
+# pyserini   # only for the optional BM25 index path; needs a JVM
+
+# Grounded synthetic proposal generation (synthetic/)
+openai
+azure-identity
+pandas
+pypdf
+PyPDF2
+json_repair
+annotated_types
+typing_extensions
